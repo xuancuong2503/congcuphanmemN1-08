@@ -21,5 +21,25 @@ namespace WinFormsApp1
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string userName = textBox1.Text;
+            string passWord = textBox3.Text;
+            if(userName=="admin" && passWord == "admin")
+            {
+                MessageBox.Show("Succes");
+            }
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
