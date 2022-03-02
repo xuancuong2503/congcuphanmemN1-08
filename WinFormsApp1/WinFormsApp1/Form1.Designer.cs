@@ -53,7 +53,7 @@ namespace WinFormsApp1
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(94, 20);
             this.label1.TabIndex = 1;
-            this.label1.Text = "User Name 2";
+            this.label1.Text = "User Name1";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox1
