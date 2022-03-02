@@ -51,9 +51,9 @@ namespace WinFormsApp1
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(58, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 20);
+            this.label1.Size = new System.Drawing.Size(94, 20);
             this.label1.TabIndex = 1;
-            this.label1.Text = "User Name";
+            this.label1.Text = "User Name 2";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox1
@@ -69,9 +69,10 @@ namespace WinFormsApp1
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(58, 124);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 20);
+            this.label3.Size = new System.Drawing.Size(86, 20);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Pass word";
+            this.label3.Text = "Pass word 2";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox3
             // 
